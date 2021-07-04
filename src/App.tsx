@@ -13,12 +13,14 @@ class A extends React.PureComponent {
     this.setState({ val: 3 });
     debugger;
     this.setState({ val: 4 });
-    setTimeout(() => {
-      debugger;
-      this.setState({ val: 5 });
-      debugger;
-      this.setState({ val: 6 });
-    });
+    debugger;
+    this.setState({ val: 5 });
+    // setTimeout(() => {
+    //   debugger;
+    //   this.setState({ val: 5 });
+    //   debugger;
+    //   this.setState({ val: 6 });
+    // });
   };
 
   render() {
